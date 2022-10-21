@@ -1,0 +1,20 @@
+.article {
+    cursor: pointer;
+    margin: 50px;
+    background-color: #FFFFFF;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+.article * {
+    color: black;
+}
+
+.article:hover {
+    box-shadow: 2px 2px 10px 10px rgba(255, 255, 255, 0.2);
+}
+
+.article img {
+    width: 100%;
+    margin: 20px 0;
+}

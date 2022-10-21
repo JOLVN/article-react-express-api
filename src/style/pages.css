@@ -1,0 +1,44 @@
+.article-page {
+
+}
+
+.article-page img {
+    width: 100%;
+    margin: 40px 0;
+}
+
+.article-page p {
+    margin-bottom: 40px;
+}
+
+.edit-article-page form {
+    margin: 40px 50px;
+}
+
+.edit-article-page form span:not(.button) {
+    display: block;
+    align-items: center;
+    margin: 20px 0;
+}
+
+.edit-article-page form label {
+    display: block;
+}
+
+.edit-article-page form input {
+    height: 30px;
+    border: none;
+    border-radius: 5px;
+    width: 70%;
+    padding-left: 10px;
+    outline: none;
+}
+
+.edit-article-page form textarea {
+    min-width: 70%!important;
+    height: 200px;
+}
+
+.edit-article-page .button {
+    margin-right: 20px;
+}

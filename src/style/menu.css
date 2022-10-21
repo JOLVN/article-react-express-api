@@ -1,0 +1,22 @@
+.menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: var(--color-purple-dark);
+    padding: 20px 40px;
+}
+
+.menu ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.menu li {
+    cursor: pointer;
+}
+
+.menu li.active {
+    border-bottom: 1px solid var(--color-blue-clear);
+}
